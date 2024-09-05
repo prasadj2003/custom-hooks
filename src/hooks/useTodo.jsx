@@ -28,7 +28,7 @@ function useTodo(n) {
         await axios.get("https://dummyjson.com/todos")
         .then(res => {
             setLoading(false)
-        setTodos(res.data.todos);
+            setTodos(res.data.todos);
         })
     }
 
